@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rent Car Service — Affordable Weekly & Monthly Car Rentals</title>
+  <meta name="description"
+    content="Rent affordable cars weekly or monthly. Browse our fleet, compare prices, and book your next rental car today. Best rates guaranteed.">
+  <link rel="icon" href="Media/Only logo without text.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">
+        <img src="Media/Car rent logo Dark theme.png" alt="Rent Car Service" id="nav-logo-img">
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#vehicles">Vehicles</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#contact">Contact</a>
+        <a href="admin.html" class="nav-admin-btn"><i class="fas fa-lock"></i> Go to Admin Panel</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="Media/hero-bg.png" alt="Luxury car side view">
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-star"></i> Trusted by 1,000+ customers
+        </div>
+        <h1>Affordable <span>Weekly & Monthly</span> Car Rentals</h1>
+        <p>Get the best rates on quality rental cars. Whether you need a car for a week or a month, we've got you
+          covered with flexible plans and no hidden fees.</p>
+        <div class="hero-buttons">
+          <a href="#vehicles" class="btn btn-primary btn-lg">
+            <i class="fas fa-car"></i> Browse Vehicles
+          </a>
+          <a href="#booking" class="btn btn-outline btn-lg">
+            <i class="fas fa-envelope"></i> Inquire Now
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <h3>50+</h3>
+            <p>Vehicles Available</p>
+          </div>
+          <div class="hero-stat">
+            <h3>1,200+</h3>
+            <p>Happy Customers</p>
+          </div>
+          <div class="hero-stat">
+            <h3>4.9★</h3>
+            <p>Customer Rating</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VEHICLES ===== -->
+  <section class="vehicles" id="vehicles">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fas fa-car-side"></i> Our Fleet</div>
+        <h2 class="section-title">Browse Our Vehicles</h2>
+        <p class="section-subtitle">Choose from a wide range of well-maintained, fuel-efficient cars perfect for your
+          weekly or monthly rental needs.</p>
+      </div>
+
+      <div class="vehicles-carousel-wrapper">
+        <button class="carousel-arrow carousel-arrow-left" id="vehiclePrev" aria-label="Previous vehicles">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="vehicles-carousel" id="vehiclesCarousel">
+          <div class="vehicles-track" id="vehiclesTrack">
+            <!-- Car 1 -->
+            <div class="vehicle-card">
+              <div class="vehicle-card-img">
+                <img src="Media/toyota-corolla.png" alt="Toyota Corolla 2022">
+              </div>
+              <div class="vehicle-card-body">
+                <h3>Toyota Corolla 2022</h3>
+                <div class="vehicle-specs">
+                  <div class="vehicle-spec"><i class="fas fa-cog"></i> Automatic</div>
+                  <div class="vehicle-spec"><i class="fas fa-gas-pump"></i> Gasoline</div>
+                  <div class="vehicle-spec"><i class="fas fa-users"></i> 5 Seats</div>
+                  <div class="vehicle-spec"><i class="fas fa-snowflake"></i> A/C Included</div>
+                </div>
+                <div class="vehicle-pricing">
+                  <div class="vehicle-price">
+                    <div class="label">Weekly</div>
+                    <div class="amount">$250 <small>/week</small></div>
+                  </div>
+                  <div class="vehicle-price monthly">
+                    <div class="label">Monthly</div>
+                    <div class="amount">$850 <small>/month</small></div>
+                    <div class="discount-tag">Save 15%</div>
+                  </div>
+                </div>
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+
+            <!-- Car 2 -->
+            <div class="vehicle-card">
+              <div class="vehicle-card-img">
+                <img src="Media/honda-civic.png" alt="Honda Civic 2023">
+              </div>
+              <div class="vehicle-card-body">
+                <h3>Honda Civic 2023</h3>
+                <div class="vehicle-specs">
+                  <div class="vehicle-spec"><i class="fas fa-cog"></i> Automatic</div>
+                  <div class="vehicle-spec"><i class="fas fa-gas-pump"></i> Gasoline</div>
+                  <div class="vehicle-spec"><i class="fas fa-users"></i> 5 Seats</div>
+                  <div class="vehicle-spec"><i class="fas fa-snowflake"></i> A/C Included</div>
+                </div>
+                <div class="vehicle-pricing">
+                  <div class="vehicle-price">
+                    <div class="label">Weekly</div>
+                    <div class="amount">$275 <small>/week</small></div>
+                  </div>
+                  <div class="vehicle-price monthly">
+                    <div class="label">Monthly</div>
+                    <div class="amount">$900 <small>/month</small></div>
+                    <div class="discount-tag">Save 18%</div>
+                  </div>
+                </div>
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+
+            <!-- Car 3 -->
+            <div class="vehicle-card">
+              <div class="vehicle-card-img">
+                <img src="Media/nissan-altima.png" alt="Nissan Altima 2022">
+              </div>
+              <div class="vehicle-card-body">
+                <h3>Nissan Altima 2022</h3>
+                <div class="vehicle-specs">
+                  <div class="vehicle-spec"><i class="fas fa-cog"></i> Automatic</div>
+                  <div class="vehicle-spec"><i class="fas fa-gas-pump"></i> Gasoline</div>
+                  <div class="vehicle-spec"><i class="fas fa-users"></i> 5 Seats</div>
+                  <div class="vehicle-spec"><i class="fas fa-snowflake"></i> A/C Included</div>
+                </div>
+                <div class="vehicle-pricing">
+                  <div class="vehicle-price">
+                    <div class="label">Weekly</div>
+                    <div class="amount">$260 <small>/week</small></div>
+                  </div>
+                  <div class="vehicle-price monthly">
+                    <div class="label">Monthly</div>
+                    <div class="amount">$870 <small>/month</small></div>
+                    <div class="discount-tag">Save 16%</div>
+                  </div>
+                </div>
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+
+            <!-- Car 4 -->
+            <div class="vehicle-card">
+              <div class="vehicle-card-img">
+                <img src="Media/chevrolet-malibu.png" alt="Chevrolet Malibu 2023">
+              </div>
+              <div class="vehicle-card-body">
+                <h3>Chevrolet Malibu 2023</h3>
+                <div class="vehicle-specs">
+                  <div class="vehicle-spec"><i class="fas fa-cog"></i> Automatic</div>
+                  <div class="vehicle-spec"><i class="fas fa-gas-pump"></i> Gasoline</div>
+                  <div class="vehicle-spec"><i class="fas fa-users"></i> 5 Seats</div>
+                  <div class="vehicle-spec"><i class="fas fa-snowflake"></i> A/C Included</div>
+                </div>
+                <div class="vehicle-pricing">
+                  <div class="vehicle-price">
+                    <div class="label">Weekly</div>
+                    <div class="amount">$280 <small>/week</small></div>
+                  </div>
+                  <div class="vehicle-price monthly">
+                    <div class="label">Monthly</div>
+                    <div class="amount">$920 <small>/month</small></div>
+                    <div class="discount-tag">Save 18%</div>
+                  </div>
+                </div>
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+
+            <!-- Car 5 -->
+            <div class="vehicle-card">
+              <div class="vehicle-card-img">
+                <img src="Media/hyundai-elantra.png" alt="Hyundai Elantra 2023">
+              </div>
+              <div class="vehicle-card-body">
+                <h3>Hyundai Elantra 2023</h3>
+                <div class="vehicle-specs">
+                  <div class="vehicle-spec"><i class="fas fa-cog"></i> Automatic</div>
+                  <div class="vehicle-spec"><i class="fas fa-gas-pump"></i> Gasoline</div>
+                  <div class="vehicle-spec"><i class="fas fa-users"></i> 5 Seats</div>
+                  <div class="vehicle-spec"><i class="fas fa-snowflake"></i> A/C Included</div>
+                </div>
+                <div class="vehicle-pricing">
+                  <div class="vehicle-price">
+                    <div class="label">Weekly</div>
+                    <div class="amount">$240 <small>/week</small></div>
+                  </div>
+                  <div class="vehicle-price monthly">
+                    <div class="label">Monthly</div>
+                    <div class="amount">$820 <small>/month</small></div>
+                    <div class="discount-tag">Save 15%</div>
+                  </div>
+                </div>
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+
+            <!-- Car 6 -->
+            <div class="vehicle-card">
+              <div class="vehicle-card-img">
+                <img src="Media/ford-fusion.png" alt="Ford Fusion 2022">
+              </div>
+              <div class="vehicle-card-body">
+                <h3>Ford Fusion 2022</h3>
+                <div class="vehicle-specs">
+                  <div class="vehicle-spec"><i class="fas fa-cog"></i> Automatic</div>
+                  <div class="vehicle-spec"><i class="fas fa-gas-pump"></i> Hybrid</div>
+                  <div class="vehicle-spec"><i class="fas fa-users"></i> 5 Seats</div>
+                  <div class="vehicle-spec"><i class="fas fa-snowflake"></i> A/C Included</div>
+                </div>
+                <div class="vehicle-pricing">
+                  <div class="vehicle-price">
+                    <div class="label">Weekly</div>
+                    <div class="amount">$290 <small>/week</small></div>
+                  </div>
+                  <div class="vehicle-price monthly">
+                    <div class="label">Monthly</div>
+                    <div class="amount">$950 <small>/month</small></div>
+                    <div class="discount-tag">Save 18%</div>
+                  </div>
+                </div>
+                <a href="#booking" class="btn btn-primary">Book Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-arrow carousel-arrow-right" id="vehicleNext" aria-label="Next vehicles">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fas fa-tags"></i> Pricing Plans</div>
+        <h2 class="section-title">Simple, Transparent Pricing</h2>
+        <p class="section-subtitle">Choose the plan that fits your needs. Monthly rentals offer significant savings
+          compared to weekly rates.</p>
+      </div>
+
+      <div class="pricing-grid reveal">
+        <!-- Weekly -->
+        <div class="pricing-card">
+          <h3>Weekly Rental</h3>
+          <p class="pricing-desc">Perfect for short-term needs, vacations, or business trips.</p>
+          <div class="pricing-amount">
+            <span class="from">from</span>
+            <span class="price">$240</span>
+            <span class="period">/week</span>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check-circle"></i> No long-term commitment</li>
+            <li><i class="fas fa-check-circle"></i> Free mileage (up to 1,500 mi/wk)</li>
+            <li><i class="fas fa-check-circle"></i> Basic insurance included</li>
+            <li><i class="fas fa-check-circle"></i> 24/7 roadside assistance</li>
+            <li><i class="fas fa-check-circle"></i> Free car swap option</li>
+          </ul>
+          <a href="#booking" class="btn btn-dark">Get Started</a>
+        </div>
+
+        <!-- Monthly (Featured) -->
+        <div class="pricing-card featured">
+          <div class="pricing-popular-tag">Best Value</div>
+          <h3>Monthly Rental</h3>
+          <p class="pricing-desc">Save big with our discounted monthly rates — ideal for extended stays.</p>
+          <div class="pricing-amount">
+            <span class="from">from</span>
+            <span class="price">$820</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="fas fa-check-circle"></i> Up to 20% savings vs weekly</li>
+            <li><i class="fas fa-check-circle"></i> Unlimited mileage</li>
+            <li><i class="fas fa-check-circle"></i> Full insurance coverage</li>
+            <li><i class="fas fa-check-circle"></i> 24/7 roadside assistance</li>
+            <li><i class="fas fa-check-circle"></i> Free maintenance & servicing</li>
+            <li><i class="fas fa-check-circle"></i> Priority vehicle upgrades</li>
+          </ul>
+          <div class="pricing-savings">
+            <p><i class="fas fa-piggy-bank"></i> Save up to $200/month compared to weekly rates!</p>
+          </div>
+          <a href="#booking" class="btn btn-primary">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="reviews" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fas fa-star"></i> Testimonials</div>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-subtitle">Don't just take our word for it. Here's what our happy customers have to say about
+          their rental experience.</p>
+      </div>
+
+      <div class="reviews-carousel-wrapper">
+        <button class="carousel-arrow carousel-arrow-left" id="reviewPrev" aria-label="Previous reviews">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="reviews-carousel" id="reviewsCarousel">
+          <div class="reviews-track" id="reviewsTrack">
+            <!-- Review 1 -->
+            <div class="review-card">
+              <div class="review-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="review-text">"Absolutely amazing experience! The car was spotless and the monthly rate saved me
+                a fortune. Will definitely be coming back for my next rental."</p>
+              <div class="review-author">
+                <div class="review-avatar"><i class="fas fa-user"></i></div>
+                <div>
+                  <h4>Ahmed Hassan</h4>
+                  <p>Monthly Rental — Toyota Corolla</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="review-card">
+              <div class="review-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="review-text">"Best car rental service in the city! The booking process was so smooth and the
+                team was incredibly helpful. The Honda Civic drove like a dream."</p>
+              <div class="review-author">
+                <div class="review-avatar"><i class="fas fa-user"></i></div>
+                <div>
+                  <h4>Sarah Johnson</h4>
+                  <p>Weekly Rental — Honda Civic</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="review-card">
+              <div class="review-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              </div>
+              <p class="review-text">"Great value for money. I rented a Chevrolet Malibu for a month and it was perfect
+                for my business trips. Very responsive customer support too!"</p>
+              <div class="review-author">
+                <div class="review-avatar"><i class="fas fa-user"></i></div>
+                <div>
+                  <h4>Michael Chen</h4>
+                  <p>Monthly Rental — Chevrolet Malibu</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 4 -->
+            <div class="review-card">
+              <div class="review-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="review-text">"I've been renting from here for 6 months straight. The prices are unbeatable and
+                the cars are always in excellent condition. Highly recommend!"</p>
+              <div class="review-author">
+                <div class="review-avatar"><i class="fas fa-user"></i></div>
+                <div>
+                  <h4>Fatima Al-Rashid</h4>
+                  <p>Long-term Rental — Nissan Altima</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 5 -->
+            <div class="review-card">
+              <div class="review-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <p class="review-text">"Picked up a Ford Fusion hybrid for a week. Super fuel efficient and saved me a lot
+                on gas. The pickup and drop-off process was seamless!"</p>
+              <div class="review-author">
+                <div class="review-avatar"><i class="fas fa-user"></i></div>
+                <div>
+                  <h4>David Thompson</h4>
+                  <p>Weekly Rental — Ford Fusion</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Review 6 -->
+            <div class="review-card">
+              <div class="review-stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                  class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              </div>
+              <p class="review-text">"Needed a reliable car while mine was in the shop. The Hyundai Elantra was a
+                perfect fit — affordable, comfortable, and the staff was super friendly."</p>
+              <div class="review-author">
+                <div class="review-avatar"><i class="fas fa-user"></i></div>
+                <div>
+                  <h4>Layla Patel</h4>
+                  <p>Weekly Rental — Hyundai Elantra</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-arrow carousel-arrow-right" id="reviewNext" aria-label="Next reviews">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <div class="carousel-dots" id="reviewDots"></div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fas fa-route"></i> How It Works</div>
+        <h2 class="section-title">Rent a Car in 3 Easy Steps</h2>
+        <p class="section-subtitle">Our booking process is simple and hassle-free. Get on the road in no time.</p>
+      </div>
+
+      <div class="steps-grid reveal">
+        <!-- Step 1 -->
+        <div class="step-card">
+          <div class="step-icon">
+            <i class="fas fa-car-side"></i>
+            <div class="step-number">1</div>
+          </div>
+          <h3>Choose Your Car</h3>
+          <p>Browse our fleet and select the vehicle that best fits your needs and budget.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="step-card">
+          <div class="step-icon">
+            <i class="fas fa-paper-plane"></i>
+            <div class="step-number">2</div>
+          </div>
+          <h3>Send Rental Inquiry</h3>
+          <p>Fill out the quick inquiry form with your details and preferred dates.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="step-card">
+          <div class="step-icon">
+            <i class="fas fa-key"></i>
+            <div class="step-number">3</div>
+          </div>
+          <h3>Confirm & Pick Up</h3>
+          <p>We'll confirm your booking and have your car ready for pickup at the scheduled time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BOOKING INQUIRY ===== -->
+  <section class="booking" id="booking">
+    <div class="container">
+      <div class="booking-wrapper reveal">
+        <div class="booking-info">
+          <div class="section-badge"><i class="fas fa-calendar-check"></i> Book Now</div>
+          <h2>Ready to Hit the Road?</h2>
+          <p>Send us your rental inquiry and we'll get back to you within 2 hours with availability and a personalized
+            quote.</p>
+          <div class="booking-features">
+            <div class="booking-feature">
+              <div class="booking-feature-icon"><i class="fas fa-bolt"></i></div>
+              <div>
+                <h4>Quick Response</h4>
+                <p>We respond to all inquiries within 2 hours</p>
+              </div>
+            </div>
+            <div class="booking-feature">
+              <div class="booking-feature-icon"><i class="fas fa-shield-halved"></i></div>
+              <div>
+                <h4>No Hidden Fees</h4>
+                <p>Transparent pricing with no surprise charges</p>
+              </div>
+            </div>
+            <div class="booking-feature">
+              <div class="booking-feature-icon"><i class="fas fa-rotate"></i></div>
+              <div>
+                <h4>Flexible Cancellation</h4>
+                <p>Free cancellation up to 24 hours before pickup</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="booking-form" id="bookingForm" onsubmit="return false;">
+          <h3>Rental Inquiry Form</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" placeholder="John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" placeholder="+1 (555) 000-0000">
+            </div>
+            <div class="form-group">
+              <label for="duration">Rental Duration</label>
+              <select id="duration">
+                <option value="">Select duration</option>
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label for="preferredCar">Preferred Car</label>
+              <select id="preferredCar">
+                <option value="">Select a vehicle</option>
+                <option>Toyota Corolla 2022</option>
+                <option>Honda Civic 2023</option>
+                <option>Nissan Altima 2022</option>
+                <option>Chevrolet Malibu 2023</option>
+                <option>Hyundai Elantra 2023</option>
+                <option>Ford Fusion 2022</option>
+              </select>
+            </div>
+            <div class="form-group full-width">
+              <label for="message">Message (Optional)</label>
+              <textarea id="message" placeholder="Any special requests or questions?"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg">
+            <i class="fas fa-paper-plane"></i> Submit Inquiry
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="Media/Only logo without text.png" alt="Rent Car Service">
+            <span class="footer-logo-text">Rent Car <br>Service</span>
+          </div>
+          <p>Your trusted partner for affordable weekly and monthly car rentals. Quality vehicles, transparent pricing,
+            and exceptional customer service.</p>
+          <div class="footer-socials">
+            <a href="#" class="footer-social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="footer-social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="footer-social-link"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#vehicles">Vehicles</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#booking">Book a Car</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Vehicle Types</h4>
+          <ul>
+            <li><a href="#">Sedans</a></li>
+            <li><a href="#">SUVs</a></li>
+            <li><a href="#">Economy Cars</a></li>
+            <li><a href="#">Hybrid / Electric</a></li>
+            <li><a href="#">Luxury Cars</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone"></i>
+            <p>+1 (555) 123-4567</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-envelope"></i>
+            <p>info@rentcarservice.com</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-location-dot"></i>
+            <p>1234 Main Street, Suite 100<br>Los Angeles, CA 90001</p>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-clock"></i>
+            <p>Mon–Sat: 8:00 AM – 8:00 PM<br>Sun: 10:00 AM – 5:00 PM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Rent Car Service. All rights reserved.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
