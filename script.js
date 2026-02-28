@@ -6,11 +6,11 @@ window.addEventListener('scroll', () => {
   if (window.scrollY > 60) {
     navbar.classList.add('scrolled');
     // Switch to light-theme logo (dark text) on white navbar
-    navLogo.src = 'Media/Car rent logo light theme.png';
+    navLogo.src = 'Media/Car rent logo light theme.webp';
   } else {
     navbar.classList.remove('scrolled');
     // Dark theme logo (white text) on transparent nav over hero
-    navLogo.src = 'Media/Car rent logo Dark theme.png';
+    navLogo.src = 'Media/Car rent logo Dark theme.webp';
   }
 });
 
