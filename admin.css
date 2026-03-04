@@ -83,9 +83,10 @@ img {
 }
 
 .sidebar-brand img {
-  height: 70px;
+  height: 140px;
   object-fit: contain;
-  mix-blend-mode: screen;
+  margin-top: -30px;
+  margin-bottom: -30px;
 }
 
 .sidebar-nav {
